@@ -31,3 +31,6 @@ data/*
 # OS/editor
 .DS_Store
 .vscode/
+
+# Ignore packaging metadata generated automatically by Python build tools.
+*.egg-info/
