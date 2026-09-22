@@ -1,0 +1,35 @@
+# PEP 517 build configuration.
+# These settings tell Python build tools how to build/install this project.
+[build-system]
+
+# Setuptools is the build backend we are using for this Python package.
+# The minimum version avoids relying on very old packaging behavior.
+requires = ["setuptools>=75"]
+
+# This identifies Setuptools as the program responsible for building the package.
+build-backend = "setuptools.build_meta"
+
+
+# Main Python project metadata.
+[project]
+
+# Distribution/package name used by Python packaging tools.
+name = "bano-qabil-ai-service-desk"
+
+# Current internal project version.
+version = "0.1.0"
+
+# Short description shown by Python package tooling.
+description = "Multi-agent AI Service Desk for Bano Qabil"
+
+# This project deliberately supports Python 3.13 but not 3.14.
+# CrewAI currently requires Python below 3.14, so the upper bound prevents
+# an incompatible interpreter from being used accidentally.
+requires-python = ">=3.13,<3.14"
+
+
+# Tell Setuptools where our application package is located.
+[tool.setuptools.packages.find]
+
+# Our Python source code lives under src/ rather than directly in the root.
+where = ["src"]

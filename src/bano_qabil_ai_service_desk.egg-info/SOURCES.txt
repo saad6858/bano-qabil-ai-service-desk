@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/bano_qabil_ai_service_desk.egg-info/PKG-INFO
+src/bano_qabil_ai_service_desk.egg-info/SOURCES.txt
+src/bano_qabil_ai_service_desk.egg-info/dependency_links.txt
+src/bano_qabil_ai_service_desk.egg-info/top_level.txt
+src/bq_service_desk/__init__.py
+src/bq_service_desk/clients/__init__.py
+src/bq_service_desk/llm/__init__.py
+src/bq_service_desk/security/__init__.py
+src/bq_service_desk/services/__init__.py
