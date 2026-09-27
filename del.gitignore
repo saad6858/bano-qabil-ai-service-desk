@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+*.log
+output/
+dist/
+build/
+*.egg-info/
+credentials/
+secrets/
+*.json
+!tests/*.json
+!data/**/*.json
